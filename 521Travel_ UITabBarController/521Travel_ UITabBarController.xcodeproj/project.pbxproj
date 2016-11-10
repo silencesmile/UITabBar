@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81544E961DCCB1F800EA35F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544E951DCCB1F800EA35F1 /* AppDelegate.swift */; };
+		81544E981DCCB1F800EA35F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544E971DCCB1F800EA35F1 /* ViewController.swift */; };
+		81544E9B1DCCB1F800EA35F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81544E991DCCB1F800EA35F1 /* Main.storyboard */; };
+		81544E9D1DCCB1F800EA35F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81544E9C1DCCB1F800EA35F1 /* Assets.xcassets */; };
+		81544EA01DCCB1F800EA35F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81544E9E1DCCB1F800EA35F1 /* LaunchScreen.storyboard */; };
+		81544EAB1DCCB1F800EA35F1 /* _21Travel__UITabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544EAA1DCCB1F800EA35F1 /* _21Travel__UITabBarControllerTests.swift */; };
+		81544EB61DCCB1F800EA35F1 /* _21Travel__UITabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81544EB51DCCB1F800EA35F1 /* _21Travel__UITabBarControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81544EA71DCCB1F800EA35F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81544E8A1DCCB1F800EA35F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81544E911DCCB1F800EA35F1;
+			remoteInfo = "521Travel_ UITabBarController";
+		};
+		81544EB21DCCB1F800EA35F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81544E8A1DCCB1F800EA35F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81544E911DCCB1F800EA35F1;
+			remoteInfo = "521Travel_ UITabBarController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81544E921DCCB1F800EA35F1 /* 521Travel_ UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "521Travel_ UITabBarController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544E951DCCB1F800EA35F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81544E971DCCB1F800EA35F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81544E9A1DCCB1F800EA35F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81544E9C1DCCB1F800EA35F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81544E9F1DCCB1F800EA35F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81544EA11DCCB1F800EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81544EA61DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "521Travel_ UITabBarControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544EAA1DCCB1F800EA35F1 /* _21Travel__UITabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel__UITabBarControllerTests.swift; sourceTree = "<group>"; };
+		81544EAC1DCCB1F800EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81544EB11DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "521Travel_ UITabBarControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81544EB51DCCB1F800EA35F1 /* _21Travel__UITabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel__UITabBarControllerUITests.swift; sourceTree = "<group>"; };
+		81544EB71DCCB1F800EA35F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81544E8F1DCCB1F800EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EA31DCCB1F800EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EAE1DCCB1F800EA35F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81544E891DCCB1F800EA35F1 = {
+			isa = PBXGroup;
+			children = (
+				81544E941DCCB1F800EA35F1 /* 521Travel_ UITabBarController */,
+				81544EA91DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests */,
+				81544EB41DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests */,
+				81544E931DCCB1F800EA35F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81544E931DCCB1F800EA35F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81544E921DCCB1F800EA35F1 /* 521Travel_ UITabBarController.app */,
+				81544EA61DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests.xctest */,
+				81544EB11DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81544E941DCCB1F800EA35F1 /* 521Travel_ UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				81544E951DCCB1F800EA35F1 /* AppDelegate.swift */,
+				81544E971DCCB1F800EA35F1 /* ViewController.swift */,
+				81544E991DCCB1F800EA35F1 /* Main.storyboard */,
+				81544E9C1DCCB1F800EA35F1 /* Assets.xcassets */,
+				81544E9E1DCCB1F800EA35F1 /* LaunchScreen.storyboard */,
+				81544EA11DCCB1F800EA35F1 /* Info.plist */,
+			);
+			path = "521Travel_ UITabBarController";
+			sourceTree = "<group>";
+		};
+		81544EA91DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				81544EAA1DCCB1F800EA35F1 /* _21Travel__UITabBarControllerTests.swift */,
+				81544EAC1DCCB1F800EA35F1 /* Info.plist */,
+			);
+			path = "521Travel_ UITabBarControllerTests";
+			sourceTree = "<group>";
+		};
+		81544EB41DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81544EB51DCCB1F800EA35F1 /* _21Travel__UITabBarControllerUITests.swift */,
+				81544EB71DCCB1F800EA35F1 /* Info.plist */,
+			);
+			path = "521Travel_ UITabBarControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81544E911DCCB1F800EA35F1 /* 521Travel_ UITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544EBA1DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarController" */;
+			buildPhases = (
+				81544E8E1DCCB1F800EA35F1 /* Sources */,
+				81544E8F1DCCB1F800EA35F1 /* Frameworks */,
+				81544E901DCCB1F800EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "521Travel_ UITabBarController";
+			productName = "521Travel_ UITabBarController";
+			productReference = 81544E921DCCB1F800EA35F1 /* 521Travel_ UITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81544EA51DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544EBD1DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarControllerTests" */;
+			buildPhases = (
+				81544EA21DCCB1F800EA35F1 /* Sources */,
+				81544EA31DCCB1F800EA35F1 /* Frameworks */,
+				81544EA41DCCB1F800EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81544EA81DCCB1F800EA35F1 /* PBXTargetDependency */,
+			);
+			name = "521Travel_ UITabBarControllerTests";
+			productName = "521Travel_ UITabBarControllerTests";
+			productReference = 81544EA61DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81544EB01DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81544EC01DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarControllerUITests" */;
+			buildPhases = (
+				81544EAD1DCCB1F800EA35F1 /* Sources */,
+				81544EAE1DCCB1F800EA35F1 /* Frameworks */,
+				81544EAF1DCCB1F800EA35F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81544EB31DCCB1F800EA35F1 /* PBXTargetDependency */,
+			);
+			name = "521Travel_ UITabBarControllerUITests";
+			productName = "521Travel_ UITabBarControllerUITests";
+			productReference = 81544EB11DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81544E8A1DCCB1F800EA35F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = 521Travel.com;
+				TargetAttributes = {
+					81544E911DCCB1F800EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+					};
+					81544EA51DCCB1F800EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81544E911DCCB1F800EA35F1;
+					};
+					81544EB01DCCB1F800EA35F1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81544E911DCCB1F800EA35F1;
+					};
+				};
+			};
+			buildConfigurationList = 81544E8D1DCCB1F800EA35F1 /* Build configuration list for PBXProject "521Travel_ UITabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81544E891DCCB1F800EA35F1;
+			productRefGroup = 81544E931DCCB1F800EA35F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81544E911DCCB1F800EA35F1 /* 521Travel_ UITabBarController */,
+				81544EA51DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerTests */,
+				81544EB01DCCB1F800EA35F1 /* 521Travel_ UITabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81544E901DCCB1F800EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544EA01DCCB1F800EA35F1 /* LaunchScreen.storyboard in Resources */,
+				81544E9D1DCCB1F800EA35F1 /* Assets.xcassets in Resources */,
+				81544E9B1DCCB1F800EA35F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EA41DCCB1F800EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EAF1DCCB1F800EA35F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81544E8E1DCCB1F800EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544E981DCCB1F800EA35F1 /* ViewController.swift in Sources */,
+				81544E961DCCB1F800EA35F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EA21DCCB1F800EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544EAB1DCCB1F800EA35F1 /* _21Travel__UITabBarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81544EAD1DCCB1F800EA35F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81544EB61DCCB1F800EA35F1 /* _21Travel__UITabBarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81544EA81DCCB1F800EA35F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81544E911DCCB1F800EA35F1 /* 521Travel_ UITabBarController */;
+			targetProxy = 81544EA71DCCB1F800EA35F1 /* PBXContainerItemProxy */;
+		};
+		81544EB31DCCB1F800EA35F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81544E911DCCB1F800EA35F1 /* 521Travel_ UITabBarController */;
+			targetProxy = 81544EB21DCCB1F800EA35F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81544E991DCCB1F800EA35F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81544E9A1DCCB1F800EA35F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81544E9E1DCCB1F800EA35F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81544E9F1DCCB1F800EA35F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81544EB81DCCB1F800EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81544EB91DCCB1F800EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81544EBB1DCCB1F800EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81544EBC1DCCB1F800EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81544EBE1DCCB1F800EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_ UITabBarController.app/521Travel_ UITabBarController";
+			};
+			name = Debug;
+		};
+		81544EBF1DCCB1F800EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_ UITabBarController.app/521Travel_ UITabBarController";
+			};
+			name = Release;
+		};
+		81544EC11DCCB1F800EA35F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "521Travel_ UITabBarController";
+			};
+			name = Debug;
+		};
+		81544EC21DCCB1F800EA35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = "521Travel_ UITabBarControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel--UITabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "521Travel_ UITabBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81544E8D1DCCB1F800EA35F1 /* Build configuration list for PBXProject "521Travel_ UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544EB81DCCB1F800EA35F1 /* Debug */,
+				81544EB91DCCB1F800EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81544EBA1DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544EBB1DCCB1F800EA35F1 /* Debug */,
+				81544EBC1DCCB1F800EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81544EBD1DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544EBE1DCCB1F800EA35F1 /* Debug */,
+				81544EBF1DCCB1F800EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81544EC01DCCB1F800EA35F1 /* Build configuration list for PBXNativeTarget "521Travel_ UITabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81544EC11DCCB1F800EA35F1 /* Debug */,
+				81544EC21DCCB1F800EA35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81544E8A1DCCB1F800EA35F1 /* Project object */;
+}
